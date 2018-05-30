@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.badran.aodai.aodai2018project.buildandshowpaths.BuildPath">
+
+
+    <ImageView
+        android:id="@+id/ic_namepath"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_namepath" />
+
+    <ImageView
+        android:id="@+id/ic_camera"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/TVcountryname"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="103dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_cameraphoto" />
+
+    <ImageView
+        android:id="@+id/map_view"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_map"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="32dp" />
+
+    <EditText
+        android:id="@+id/etpathname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ic_namepath"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Add path name"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/TVcountryname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/etpathname"
+        android:text="Must contain a country name "
+        tools:text="Must contain a country name " />
+
+    <TextView
+        android:id="@+id/TVcamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ic_camera"
+        android:layout_centerVertical="true"
+        android:text="(Optional)"
+        tools:text="(Optional)" />
+    
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_weight="9"
+        android:layout_width="700dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/TVcamera"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/BTNsavepath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="Add Path" />
+
+</RelativeLayout>

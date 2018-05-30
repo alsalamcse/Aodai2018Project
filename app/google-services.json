@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "370272823059",
+    "firebase_url": "https://aodai2018project.firebaseio.com",
+    "project_id": "aodai2018project",
+    "storage_bucket": "aodai2018project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370272823059:android:208e095cc2763061",
+        "android_client_info": {
+          "package_name": "com.badran.aodai.aodai2018project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "370272823059-7olq4pl1oor7g9h3k9qliedb5gdunntq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.badran.aodai.aodai2018project",
+            "certificate_hash": "9bd603c29369108434858e7edbb0b697f9a85fe4"
+          }
+        },
+        {
+          "client_id": "370272823059-m25abeo58dchb0mmevrdscea4570vjei.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG4w_QYBGrbCORNz_FDvLEwPq2eTUwIcw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "370272823059-m25abeo58dchb0mmevrdscea4570vjei.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
